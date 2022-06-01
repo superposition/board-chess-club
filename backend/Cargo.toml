@@ -1,0 +1,13 @@
+[package]
+version = "0.1.0"
+name = "backend"
+repository = "https://github.com/MoonZoon/demo"
+authors = ["Martin Kavík <martin@kavik.cz>"]
+description = "MoonZoon demo"
+categories = ["MoonZoon", "example"]
+license = "MIT"
+readme = "../README.md"
+edition = "2021"
+
+[dependencies]
+moon = { git = "https://github.com/MoonZoon/MoonZoon", rev = "15cb619faca5f78a47e08f4af4bfa595f0eb64b1" }
